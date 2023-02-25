@@ -1,0 +1,50 @@
+{
+  "Operation(operationType=Operation(operationType=Operation(operationType=приемка, time=2023-02-10T21:16:29.623349300), time=2023-02-10T21:23:16.511204500), time=2023-02-10T21:54:26.477584100)": {
+    "color": "RED",
+    "size": "R35",
+    "cottonPart": 50,
+    "quantity": 190
+  },
+  "Operation(operationType=Operation(operationType=Operation(operationType=приемка, time=2023-02-10T21:17:07.026491800), time=2023-02-10T21:23:16.511204500), time=2023-02-10T21:54:26.477584100)": {
+    "color": "WHITE",
+    "size": "R42_5",
+    "cottonPart": 80,
+    "quantity": 250
+  },
+  "Operation(operationType=Operation(operationType=Operation(operationType=приемка, time=2023-02-10T21:17:37.745319200), time=2023-02-10T21:23:16.511204500), time=2023-02-10T21:54:26.477584100)": {
+    "color": "BLUE",
+    "size": "R40_5",
+    "cottonPart": 50,
+    "quantity": 150
+  },
+  "Operation(operationType=Operation(operationType=Operation(operationType=выдача, time=2023-02-10T21:18:06.501281600), time=2023-02-10T21:23:16.511204500), time=2023-02-10T21:54:26.477584100)": {
+    "color": "RED",
+    "size": "R35",
+    "cottonPart": 50,
+    "quantity": 90
+  },
+  "Operation(operationType=Operation(operationType=приемка, time=2023-02-10T21:24:39.689410300), time=2023-02-10T21:54:26.477584100)": {
+    "color": "BLUE",
+    "size": "R41",
+    "cottonPart": 60,
+    "quantity": 160
+  },
+  "Operation(operationType=приемка, time=2023-02-10T21:54:58.123504600)": {
+    "color": "BLUE",
+    "size": "R41",
+    "cottonPart": 60,
+    "quantity": 160
+  },
+  "Operation(operationType=выдача, time=2023-02-10T21:55:10.897266600)": {
+    "color": "BLUE",
+    "size": "R42_5",
+    "cottonPart": 95,
+    "quantity": 250
+  },
+  "Operation(operationType=списание, time=2023-02-10T21:55:54.578377200)": {
+    "color": "BLUE",
+    "size": "R42_5",
+    "cottonPart": 95,
+    "quantity": 250
+  }
+}
