@@ -14,7 +14,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-    @RequestMapping("/api/socks")
+    @RequestMapping
     @Tag(name = "Sock Shop", description = "CRUD операции для работы со складом носков.")
     public class SockShopController {
 
@@ -46,7 +46,7 @@ import org.springframework.web.bind.annotation.*;
         }
 
 
-        @PostMapping("/add")
+        @PostMapping
         @Operation(summary = "Приход товара на склад.", description = "Добавление носков на склад по их параметрам.")
         @ApiResponses (value = {
                 @ApiResponse(responseCode = "200",
@@ -64,7 +64,7 @@ import org.springframework.web.bind.annotation.*;
             return ResponseEntity.ok().body(socks);
         }
 
-        @PutMapping("/edit")
+        @PutMapping
         @Operation(summary = "Отпуск товара со склада.",
                 description = "Получение носков со склада по параметрам, на складе количество уменьшается.")
         @ApiResponses (value = {
@@ -86,7 +86,7 @@ import org.springframework.web.bind.annotation.*;
             return ResponseEntity.ok(socks1);
         }
 
-        @DeleteMapping("/remove")
+        @DeleteMapping
         @Operation(summary = "Списание товара со склада.",
                 description = "Получение носков со склада по параметрам, на складе количество уменьшается.")
         @ApiResponses (value = {

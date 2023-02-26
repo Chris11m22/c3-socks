@@ -85,7 +85,8 @@ public class FilesServiceImpl implements FilesService {
             Files.createFile(path1);
             return true;
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
+            return false;
         }
     }
 
